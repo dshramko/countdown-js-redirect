@@ -1,0 +1,1 @@
+Simple js redirect page with countdown.

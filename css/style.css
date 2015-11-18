@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background: url(../img/bg.jpg);
+}
+
+.text {
+  color: #fff;
+}
+
+a:visited, a:hover {
+  color: #fff;
+}
+
+.timer {
+  width: 400px;
+  height: 20px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #93e7b6;
+  border: 2px solid #29b865;
+}
+.timer .inside {
+  width: 0%;
+  height: 20px;
+  background: #29b865;
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease;
+  text-align: center;
+  color: transparent;
+}
+.timer .overlay {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  border: 2px solid #000;
+  background: #000;
+  color: #fff;
+  top: -2px;
+  left: -2px;
+  opacity: 0;
+  -webkit-transition: all .4s ease;
+          transition: all .4s ease;
+}
